@@ -8,8 +8,6 @@ namespace Fibonacci
 {
     internal class Sor
     {
-        //ctor [tab][tab] hozzat létre a konstruktort
-  
         //prop [tab][tab] létrhoz egy ilyet lent
         public int Sorszám { get; set; }
         public int Érték { get; set; }
