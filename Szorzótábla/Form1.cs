@@ -19,7 +19,6 @@ namespace Szorzótábla
                     button.Left = oszlop * 40;
                     button.Height = 40;
                     button.Width = 40;
-                    Controls.Add(button);
                     //button osztály csak ezen a szinten és alatta érhető el
                 }
             }
