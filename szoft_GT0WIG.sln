@@ -13,7 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kamatos", "..\..\..\..\Down
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Checklist4", "Checklist4\Checklist4.csproj", "{450CF89D-B17F-46F6-8DB4-495A2AF95DAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trivia", "Trivia\Trivia.csproj", "{E0433651-8F61-489A-93FC-A4D753DEB150}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trivia", "Trivia\Trivia.csproj", "{E0433651-8F61-489A-93FC-A4D753DEB150}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.hét", "5.hét", "{A44E1695-1ECF-4C94-A697-EA086A74E30A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hajós kvíz", "Hajós kvíz\Hajós kvíz.csproj", "{C374EB30-B38D-4F9F-A7FA-0280598C181C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,9 +49,16 @@ Global
 		{E0433651-8F61-489A-93FC-A4D753DEB150}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0433651-8F61-489A-93FC-A4D753DEB150}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0433651-8F61-489A-93FC-A4D753DEB150}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C374EB30-B38D-4F9F-A7FA-0280598C181C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C374EB30-B38D-4F9F-A7FA-0280598C181C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C374EB30-B38D-4F9F-A7FA-0280598C181C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C374EB30-B38D-4F9F-A7FA-0280598C181C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C374EB30-B38D-4F9F-A7FA-0280598C181C} = {A44E1695-1ECF-4C94-A697-EA086A74E30A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8022BD02-B5F7-4F11-BA91-797012414F62}
