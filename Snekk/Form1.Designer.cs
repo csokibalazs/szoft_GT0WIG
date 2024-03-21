@@ -36,7 +36,7 @@
             // timer1
             // 
             timer1.Enabled = true;
-            timer1.Interval = 300;
+            timer1.Interval = 350;
             timer1.Tick += timer1_Tick;
             // 
             // timer2
