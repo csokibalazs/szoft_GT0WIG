@@ -14,7 +14,8 @@ namespace _7_gyak
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            dataGridView1.DataSource = countryList;
+            countryDataBindingSource.DataSource = countryList;
+            dataGridView1.DataSource = countryDataBindingSource;
             StreamReader sr = new StreamReader("Countries.csv");
             var csv = new CsvReader(sr, CultureInfo.InvariantCulture);
             var tömb = csv.GetRecords<CountryData>();
@@ -22,6 +23,13 @@ namespace _7_gyak
             {
                 countryList.Add(item);
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            CountryEdit ce = new CountryEdit();
+            ce.CountryData = countryDataBindingSource.Current as CountryData;
+            ce.Show();
         }
     }
 }
