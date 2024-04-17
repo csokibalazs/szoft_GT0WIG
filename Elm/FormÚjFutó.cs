@@ -17,7 +17,12 @@ namespace Elm
         public FormÚjFutó()
         {
             InitializeComponent();
+            futókBindingSource.DataSource = ÚjFutó;
         }
 
+        private void FormÚjFutó_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

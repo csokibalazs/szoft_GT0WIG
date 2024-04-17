@@ -73,7 +73,7 @@ namespace Elm
 
             if (formÚjFutó.ShowDialog() == DialogResult.OK)
             {
-                //futókBindingSource.Add(FormÚjFutó.ÚjFutó); //itt kell elmenteni ebben a formban
+                futókBindingSource.Add(formÚjFutó.ÚjFutó); //itt kell elmenteni ebben a formban
             }
         }
 
