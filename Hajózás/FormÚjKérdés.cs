@@ -8,16 +8,17 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Elm
+namespace Hajózás
 {
-    public partial class FormÚjFutó : Form
+    public partial class FormÚjKérdés : Form
     {
-        public Futók ÚjFutó = new Futók();
-
-        public FormÚjFutó()
+        public Kérdés ÚjKérdés = new();
+        public FormÚjKérdés()
         {
             InitializeComponent();
-            futókBindingSource.DataSource = ÚjFutó;
+            kérdésBindingSource.DataSource = ÚjKérdés;
+            
         }
+
     }
 }

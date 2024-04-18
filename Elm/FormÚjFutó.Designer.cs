@@ -95,7 +95,6 @@
             Margin = new Padding(2, 1, 2, 1);
             Name = "FormÚjFutó";
             Text = "Form2";
-            Load += FormÚjFutó_Load;
             ((System.ComponentModel.ISupportInitialize)futókBindingSource).EndInit();
             ResumeLayout(false);
             PerformLayout();

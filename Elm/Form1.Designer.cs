@@ -48,9 +48,10 @@
             // 
             // button1
             // 
-            button1.Location = new Point(629, 68);
+            button1.Location = new Point(339, 32);
+            button1.Margin = new Padding(2, 1, 2, 1);
             button1.Name = "button1";
-            button1.Size = new Size(150, 46);
+            button1.Size = new Size(81, 22);
             button1.TabIndex = 0;
             button1.Text = "Betöltés";
             button1.UseVisualStyleBackColor = true;
@@ -63,10 +64,11 @@
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { versenyzoIDDataGridViewTextBoxColumn, nevDataGridViewTextBoxColumn, nemzetisegDataGridViewTextBoxColumn, eredmenyPercDataGridViewTextBoxColumn, kategoriaDataGridViewTextBoxColumn });
             dataGridView1.DataSource = futókBindingSource;
-            dataGridView1.Location = new Point(90, 216);
+            dataGridView1.Location = new Point(48, 101);
+            dataGridView1.Margin = new Padding(2, 1, 2, 1);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 82;
-            dataGridView1.Size = new Size(1006, 444);
+            dataGridView1.Size = new Size(686, 208);
             dataGridView1.TabIndex = 1;
             // 
             // versenyzoIDDataGridViewTextBoxColumn
@@ -115,9 +117,10 @@
             // 
             // buttonMentés
             // 
-            buttonMentés.Location = new Point(455, 68);
+            buttonMentés.Location = new Point(245, 32);
+            buttonMentés.Margin = new Padding(2, 1, 2, 1);
             buttonMentés.Name = "buttonMentés";
-            buttonMentés.Size = new Size(150, 46);
+            buttonMentés.Size = new Size(81, 22);
             buttonMentés.TabIndex = 2;
             buttonMentés.Text = "Mentés";
             buttonMentés.UseVisualStyleBackColor = true;
@@ -126,16 +129,18 @@
             // textBox1
             // 
             textBox1.DataBindings.Add(new Binding("Text", futókBindingSource, "VersenyzoID", true));
-            textBox1.Location = new Point(67, 88);
+            textBox1.Location = new Point(36, 41);
+            textBox1.Margin = new Padding(2, 1, 2, 1);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(289, 39);
+            textBox1.Size = new Size(157, 23);
             textBox1.TabIndex = 3;
             // 
             // button2
             // 
-            button2.Location = new Point(959, 774);
+            button2.Location = new Point(516, 363);
+            button2.Margin = new Padding(2, 1, 2, 1);
             button2.Name = "button2";
-            button2.Size = new Size(150, 46);
+            button2.Size = new Size(81, 22);
             button2.TabIndex = 4;
             button2.Text = "Törlés";
             button2.UseVisualStyleBackColor = true;
@@ -143,9 +148,10 @@
             // 
             // button3
             // 
-            button3.Location = new Point(752, 774);
+            button3.Location = new Point(405, 363);
+            button3.Margin = new Padding(2, 1, 2, 1);
             button3.Name = "button3";
-            button3.Size = new Size(150, 46);
+            button3.Size = new Size(81, 22);
             button3.TabIndex = 5;
             button3.Text = "Új";
             button3.UseVisualStyleBackColor = true;
@@ -153,9 +159,10 @@
             // 
             // button4
             // 
-            button4.Location = new Point(106, 767);
+            button4.Location = new Point(57, 360);
+            button4.Margin = new Padding(2, 1, 2, 1);
             button4.Name = "button4";
-            button4.Size = new Size(150, 46);
+            button4.Size = new Size(81, 22);
             button4.TabIndex = 6;
             button4.Text = "button4";
             button4.UseVisualStyleBackColor = true;
@@ -163,9 +170,9 @@
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(13F, 32F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1225, 882);
+            ClientSize = new Size(804, 413);
             Controls.Add(button4);
             Controls.Add(button3);
             Controls.Add(button2);
@@ -173,6 +180,7 @@
             Controls.Add(buttonMentés);
             Controls.Add(dataGridView1);
             Controls.Add(button1);
+            Margin = new Padding(2, 1, 2, 1);
             Name = "Form1";
             Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
