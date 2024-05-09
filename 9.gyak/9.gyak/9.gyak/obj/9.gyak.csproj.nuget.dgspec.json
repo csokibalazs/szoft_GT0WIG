@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gt0wig\\source\\repos\\9.gyak\\9.gyak\\9.gyak.csproj": {}
+    "C:\\Users\\gt0wig\\source\\repos\\szoft_GT0WIG\\9.gyak\\9.gyak\\9.gyak\\9.gyak.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gt0wig\\source\\repos\\9.gyak\\9.gyak\\9.gyak.csproj": {
+    "C:\\Users\\gt0wig\\source\\repos\\szoft_GT0WIG\\9.gyak\\9.gyak\\9.gyak\\9.gyak.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gt0wig\\source\\repos\\9.gyak\\9.gyak\\9.gyak.csproj",
+        "projectUniqueName": "C:\\Users\\gt0wig\\source\\repos\\szoft_GT0WIG\\9.gyak\\9.gyak\\9.gyak\\9.gyak.csproj",
         "projectName": "9.gyak",
-        "projectPath": "C:\\Users\\gt0wig\\source\\repos\\9.gyak\\9.gyak\\9.gyak.csproj",
+        "projectPath": "C:\\Users\\gt0wig\\source\\repos\\szoft_GT0WIG\\9.gyak\\9.gyak\\9.gyak\\9.gyak.csproj",
         "packagesPath": "C:\\Users\\gt0wig\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gt0wig\\source\\repos\\9.gyak\\9.gyak\\obj\\",
+        "outputPath": "C:\\Users\\gt0wig\\source\\repos\\szoft_GT0WIG\\9.gyak\\9.gyak\\9.gyak\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gt0wig\\AppData\\Roaming\\NuGet\\NuGet.Config",

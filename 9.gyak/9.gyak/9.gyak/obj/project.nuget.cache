@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eevwSfV8Bfdm2OlQ+e6aZ8qiacPEa1ubdMUNkniDOcpoY91Dzw+QGQ0UgmYJNJKMOu4cAY1EUmms9dN2PtFElA==",
+  "dgSpecHash": "sIHa+4Sq0RSGvEBZHRVfVu7h7CO2kLE3vjfLY7cz0iXilXP/u6HjM/dq5pn3beQxL0LU/aSWunrDn4de3APEWg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gt0wig\\source\\repos\\9.gyak\\9.gyak\\9.gyak.csproj",
+  "projectFilePath": "C:\\Users\\gt0wig\\source\\repos\\szoft_GT0WIG\\9.gyak\\9.gyak\\9.gyak\\9.gyak.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gt0wig\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\gt0wig\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
