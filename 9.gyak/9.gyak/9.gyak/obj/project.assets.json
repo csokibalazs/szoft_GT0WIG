@@ -3100,19 +3100,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gt0wig\\.nuget\\packages\\": {}
+    "C:\\Users\\Balázs\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gt0wig\\source\\repos\\9.gyak\\9.gyak\\9.gyak.csproj",
+      "projectUniqueName": "C:\\Users\\Balázs\\source\\repos\\csokibalazs\\szoft_GT0WIG\\9.gyak\\9.gyak\\9.gyak\\9.gyak.csproj",
       "projectName": "9.gyak",
-      "projectPath": "C:\\Users\\gt0wig\\source\\repos\\9.gyak\\9.gyak\\9.gyak.csproj",
-      "packagesPath": "C:\\Users\\gt0wig\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gt0wig\\source\\repos\\9.gyak\\9.gyak\\obj\\",
+      "projectPath": "C:\\Users\\Balázs\\source\\repos\\csokibalazs\\szoft_GT0WIG\\9.gyak\\9.gyak\\9.gyak\\9.gyak.csproj",
+      "packagesPath": "C:\\Users\\Balázs\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Balázs\\source\\repos\\csokibalazs\\szoft_GT0WIG\\9.gyak\\9.gyak\\9.gyak\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\gt0wig\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Balázs\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3132,6 +3132,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -3168,7 +3173,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

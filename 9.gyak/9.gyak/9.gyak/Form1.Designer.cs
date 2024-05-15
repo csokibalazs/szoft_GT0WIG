@@ -49,47 +49,61 @@
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { idDataGridViewTextBoxColumn, neptunDataGridViewTextBoxColumn, nameDataGridViewTextBoxColumn, birthDateDataGridViewTextBoxColumn, averageGradeDataGridViewTextBoxColumn, isActiveDataGridViewCheckBoxColumn });
             dataGridView1.DataSource = studentBindingSource;
-            dataGridView1.Location = new Point(101, 77);
+            dataGridView1.Location = new Point(214, 162);
+            dataGridView1.Margin = new Padding(6, 6, 6, 6);
             dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowHeadersWidth = 82;
             dataGridView1.RowTemplate.Height = 25;
-            dataGridView1.Size = new Size(613, 324);
+            dataGridView1.Size = new Size(1138, 691);
             dataGridView1.TabIndex = 0;
             // 
             // idDataGridViewTextBoxColumn
             // 
             idDataGridViewTextBoxColumn.DataPropertyName = "Id";
             idDataGridViewTextBoxColumn.HeaderText = "Id";
+            idDataGridViewTextBoxColumn.MinimumWidth = 10;
             idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
+            idDataGridViewTextBoxColumn.Width = 200;
             // 
             // neptunDataGridViewTextBoxColumn
             // 
             neptunDataGridViewTextBoxColumn.DataPropertyName = "Neptun";
             neptunDataGridViewTextBoxColumn.HeaderText = "Neptun";
+            neptunDataGridViewTextBoxColumn.MinimumWidth = 10;
             neptunDataGridViewTextBoxColumn.Name = "neptunDataGridViewTextBoxColumn";
+            neptunDataGridViewTextBoxColumn.Width = 200;
             // 
             // nameDataGridViewTextBoxColumn
             // 
             nameDataGridViewTextBoxColumn.DataPropertyName = "Name";
             nameDataGridViewTextBoxColumn.HeaderText = "Name";
+            nameDataGridViewTextBoxColumn.MinimumWidth = 10;
             nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
+            nameDataGridViewTextBoxColumn.Width = 200;
             // 
             // birthDateDataGridViewTextBoxColumn
             // 
             birthDateDataGridViewTextBoxColumn.DataPropertyName = "BirthDate";
             birthDateDataGridViewTextBoxColumn.HeaderText = "BirthDate";
+            birthDateDataGridViewTextBoxColumn.MinimumWidth = 10;
             birthDateDataGridViewTextBoxColumn.Name = "birthDateDataGridViewTextBoxColumn";
+            birthDateDataGridViewTextBoxColumn.Width = 200;
             // 
             // averageGradeDataGridViewTextBoxColumn
             // 
             averageGradeDataGridViewTextBoxColumn.DataPropertyName = "AverageGrade";
             averageGradeDataGridViewTextBoxColumn.HeaderText = "AverageGrade";
+            averageGradeDataGridViewTextBoxColumn.MinimumWidth = 10;
             averageGradeDataGridViewTextBoxColumn.Name = "averageGradeDataGridViewTextBoxColumn";
+            averageGradeDataGridViewTextBoxColumn.Width = 200;
             // 
             // isActiveDataGridViewCheckBoxColumn
             // 
             isActiveDataGridViewCheckBoxColumn.DataPropertyName = "IsActive";
             isActiveDataGridViewCheckBoxColumn.HeaderText = "IsActive";
+            isActiveDataGridViewCheckBoxColumn.MinimumWidth = 10;
             isActiveDataGridViewCheckBoxColumn.Name = "isActiveDataGridViewCheckBoxColumn";
+            isActiveDataGridViewCheckBoxColumn.Width = 200;
             // 
             // studentBindingSource
             // 
@@ -97,9 +111,10 @@
             // 
             // button1
             // 
-            button1.Location = new Point(286, 40);
+            button1.Location = new Point(531, 85);
+            button1.Margin = new Padding(6, 6, 6, 6);
             button1.Name = "button1";
-            button1.Size = new Size(75, 23);
+            button1.Size = new Size(139, 49);
             button1.TabIndex = 1;
             button1.Text = "Mentés";
             button1.UseVisualStyleBackColor = true;
@@ -107,11 +122,12 @@
             // 
             // FormMentes
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1486, 960);
             Controls.Add(button1);
             Controls.Add(dataGridView1);
+            Margin = new Padding(6, 6, 6, 6);
             Name = "FormMentes";
             Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
