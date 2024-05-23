@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Balázs\\Source\\Repos\\csokibalazs\\szoft_GT0WIG\\9.gyak\\9.gyak\\9.gyak\\9.gyak.csproj": {}
+    "C:\\Users\\Balázs\\source\\repos\\csokibalazs\\szoft_GT0WIG\\9.gyak\\9.gyak\\9.gyak\\9.gyak.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Balázs\\Source\\Repos\\csokibalazs\\szoft_GT0WIG\\9.gyak\\9.gyak\\9.gyak\\9.gyak.csproj": {
+    "C:\\Users\\Balázs\\source\\repos\\csokibalazs\\szoft_GT0WIG\\9.gyak\\9.gyak\\9.gyak\\9.gyak.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Balázs\\Source\\Repos\\csokibalazs\\szoft_GT0WIG\\9.gyak\\9.gyak\\9.gyak\\9.gyak.csproj",
+        "projectUniqueName": "C:\\Users\\Balázs\\source\\repos\\csokibalazs\\szoft_GT0WIG\\9.gyak\\9.gyak\\9.gyak\\9.gyak.csproj",
         "projectName": "9.gyak",
-        "projectPath": "C:\\Users\\Balázs\\Source\\Repos\\csokibalazs\\szoft_GT0WIG\\9.gyak\\9.gyak\\9.gyak\\9.gyak.csproj",
+        "projectPath": "C:\\Users\\Balázs\\source\\repos\\csokibalazs\\szoft_GT0WIG\\9.gyak\\9.gyak\\9.gyak\\9.gyak.csproj",
         "packagesPath": "C:\\Users\\Balázs\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Balázs\\Source\\Repos\\csokibalazs\\szoft_GT0WIG\\9.gyak\\9.gyak\\9.gyak\\obj\\",
+        "outputPath": "C:\\Users\\Balázs\\source\\repos\\csokibalazs\\szoft_GT0WIG\\9.gyak\\9.gyak\\9.gyak\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Balázs\\AppData\\Roaming\\NuGet\\NuGet.Config",
