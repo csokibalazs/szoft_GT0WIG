@@ -3,7 +3,10 @@
     public partial class Form1 : Form
     {
         PictureBox játékos = new();
+        PictureBox start = new();
+        PictureBox cél = new();
         List<PictureBox> bricks = new();
+
 
         int ido = 0;
         public Form1()
@@ -38,7 +41,21 @@
             }
             sr.Close();
 
-            //-----------
+            //----------Start cél
+            start.Height = 20;
+            start.Width = 20;
+            start.BackColor = Color.Green;
+
+            cél.Height = 20;
+            cél.Width = 20;
+            cél.BackColor = Color.Blue;
+            cél.Left = 60 * 20;
+            cél.Top = (s-1) * 20;
+
+            Controls.Add(start);
+            Controls.Add(cél);
+
+            //-----------Játékos
             játékos.Height = 20;
             játékos.Width = 20;
             játékos.BackColor = Color.Black;
