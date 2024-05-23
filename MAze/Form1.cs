@@ -16,44 +16,57 @@
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            StreamReader sr = new StreamReader("maze1.txt");
-            int s = 0;
-            while (!sr.EndOfStream)
+            OpenFileDialog of = new OpenFileDialog();
+
+            if (of.ShowDialog() == DialogResult.OK)
             {
-                string sor = sr.ReadLine();
-                for (int o = 0; o < sor.Length; o++)
+                try
                 {
-                    if (sor[o] == '#') //ha kiszedem akkor sima karakter lesz, idézőjelbe, stringek mennek macskakörömbe
+                    StreamReader sr = new StreamReader(of.FileName);
+                    int s = 0;
+                    while (!sr.EndOfStream)
                     {
-                        PictureBox pb = new PictureBox();
-                        pb.Top = s * 20;
-                        pb.Left = o * 20;
-                        pb.Width = 20;
-                        pb.Height = 20;
+                        string sor = sr.ReadLine();
+                        for (int o = 0; o < sor.Length; o++)
+                        {
+                            if (sor[o] == '#') //ha kiszedem akkor sima karakter lesz, idézőjelbe, stringek mennek macskakörömbe
+                            {
+                                PictureBox pb = new PictureBox();
+                                pb.Top = s * 20;
+                                pb.Left = o * 20;
+                                pb.Width = 20;
+                                pb.Height = 20;
 
-                        pb.BackColor = Color.Fuchsia;
+                                pb.BackColor = Color.Fuchsia;
 
-                        Controls.Add(pb);
-                        bricks.Add(pb);
+                                Controls.Add(pb);
+                                bricks.Add(pb);
+
+                                //----------Start cél
+                                start.Height = 20;
+                                start.Width = 20;
+                                start.BackColor = Color.Green;
+
+                                cél.Height = 20;
+                                cél.Width = 20;
+                                cél.BackColor = Color.Blue;
+                                cél.Left = 60 * 20;
+                                cél.Top = s * 20;
+                            }
+                        }
+                        s++;
                     }
+                    sr.Close();
                 }
-                s++;
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
             }
-            sr.Close();
-
-            //----------Start cél
-            start.Height = 20;
-            start.Width = 20;
-            start.BackColor = Color.Green;
-
-            cél.Height = 20;
-            cél.Width = 20;
-            cél.BackColor = Color.Blue;
-            cél.Left = 60 * 20;
-            cél.Top = (s-1) * 20;
 
             Controls.Add(start);
             Controls.Add(cél);
+            ido = 0;
 
             //-----------Játékos
             játékos.Height = 20;
@@ -109,6 +122,11 @@
             {
                 játékos.Left = x;
                 játékos.Top = y;
+            }
+
+            if (játékos.Left == cél.Left && játékos.Top == cél.Top)
+            {
+                MessageBox.Show("Congrats, you win!");
             }
 
         }
