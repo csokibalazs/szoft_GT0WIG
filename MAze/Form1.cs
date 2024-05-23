@@ -4,6 +4,8 @@
     {
         PictureBox játékos = new();
         List<PictureBox> bricks = new();
+
+        int ido = 0;
         public Form1()
         {
             InitializeComponent();
@@ -54,7 +56,10 @@
 
             if (e.KeyCode == Keys.Left)
             {
-                x -= 20;
+                if (x != 0)
+                {
+                    x -= 20;
+                }
             }
             if (e.KeyCode == Keys.Right)
             {
@@ -62,11 +67,20 @@
             }
             if (e.KeyCode == Keys.Up)
             {
-                y -= 20;
+                if (y != 0)
+                {
+                    y -= 20;
+                }
             }
             if (e.KeyCode == Keys.Down)
             {
                 y += 20;
+            }
+            if ((e.KeyCode == Keys.R))
+            {
+                x = 0;
+                y = 0;
+                ido = 0;
             }
 
             //var brick = bricks.FirstOrDefault(b -> b.Left == x && b.Top == y);
@@ -80,6 +94,12 @@
                 játékos.Top = y;
             }
 
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            label1.Text ="Eltelt másodpercek: " + ido;
+            ido++;
         }
     }
 }
